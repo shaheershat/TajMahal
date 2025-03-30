@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearby Attractions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white p-5 text-center text-2xl font-bold relative">
+        <!-- Back Button (Top-Left) -->
+        <a href="gallery.html" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-blue-600 px-2 py-1 text-sm rounded shadow-md hover:bg-gray-200">
+            ⬅ Back
+        </a>
+
+        Nearby Attractions
+    </header>
+
+    <nav class="flex justify-center space-x-4 bg-blue-500 p-3 text-white">
+        <a href="index.html" class="hover:text-gray-200">Home</a>
+        <a href="history.html" class="hover:text-gray-200">History</a>
+        <a href="gallery.html" class="hover:text-gray-200">Gallery</a>
+    </nav>
+
+    <section class="container mx-auto text-center py-10">
+        <h2 class="text-3xl font-semibold">Other Places to Visit</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+            <div>
+                <img src="agra_fort.avif" alt="Agra Fort" class="w-96 h-64 object-cover rounded-lg shadow-lg mx-auto">
+                <p class="text-lg font-medium mt-2">Agra Fort</p>
+            </div>
+            <div>
+                <img src="akbar_tomb.jpg" alt="Akbar's Tomb" class="w-96 h-64 object-cover rounded-lg shadow-lg mx-auto">
+                <p class="text-lg font-medium mt-2">Akbar's Tomb (Sikandra)</p>
+            </div>
+            <div>
+                <img src="fatehpur_sikri.jpg" alt="Fatehpur Sikri" class="w-96 h-64 object-cover rounded-lg shadow-lg mx-auto">
+                <p class="text-lg font-medium mt-2">Fatehpur Sikri</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-600 text-white text-center p-8 mt-10">
+        <!-- Footer Grid Layout -->
+        <div class="grid md:grid-cols-2 gap-8 mt-8 text-left mx-auto max-w-6xl items-center">
+            <!-- Left Section: Contact, Testimonials -->
+            <div>
+                <!-- Contact Information -->
+                <div>
+                    <h3 class="text-lg font-semibold">Contact Us</h3>
+                    <p>Email: <a href="mailto:info@tajmahal.gov.in" class="underline">info@tajmahal.gov.in</a></p>
+                    <p>Phone: +91 0562 2226431</p>
+                </div>
+    
+                <!-- Visitor Testimonials -->
+                <div class="mt-6">
+                    <h3 class="text-lg font-semibold">What Visitors Say</h3>
+                    <p class="italic mt-2">"An unforgettable experience!" – <strong>Rahul, India</strong></p>
+                    <p class="italic mt-2">"A must-visit!" – <strong>Emma, UK</strong></p>
+                </div>
+            </div>
+    
+            <!-- Right Section: Google Map -->
+            <div class="flex justify-center">
+                <iframe class="rounded-lg w-80 h-80" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3523.340327343884!2d78.0421553152385!3d27.175144782980864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397477d458b5c4f5%3A0x85c0f460c46d4a25!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1648557623456!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    
+        <!-- Social Media Links -->
+        <div class="mt-6">
+            <h3 class="text-lg font-semibold">Follow Us</h3>
+            <div class="flex justify-center space-x-6 mt-2">
+                <a href="https://www.facebook.com/TajMahalOfficialGovt/" class="hover:text-gray-200">Facebook</a>
+                <a href="https://www.instagram.com/tajmahalindiaofficial/?hl=en" class="hover:text-gray-200">Instagram</a>
+                <a href="https://x.com/tajmahal?lang=en" class="hover:text-gray-200">Twitter</a>
+            </div>
+        </div>
+    
+        <!-- Copyright Section -->
+        <div class="mt-6 border-t border-white pt-4">
+            <p>&copy; 2025 Taj Mahal History. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
